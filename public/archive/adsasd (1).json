@@ -1,0 +1,20 @@
+{
+  "article": {
+    "title": "adsasd",
+    "post_date": "2024-12-03",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "1"
+      },
+      {
+        "type": "paragraph",
+        "text": "4"
+      },
+      {
+        "type": "paragraph",
+        "text": "5"
+      }
+    ]
+  }
+}

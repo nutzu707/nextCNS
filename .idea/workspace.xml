@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qLTmncrUpg3ppJujOA2XvIhxhj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ionut/nextjs-fullstack-auth-edge-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ionut\\Downloads\\nextjs-fullstack-auth-edge-main\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\consiliu-de-administratie" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\websiteUI" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\app" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ionut\" />
+      <recent name="C:\Users\Ionut\WebstormProjects" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\websiteUI" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\app\(pages)" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\documente-management" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="" />
+      <created>1734441016527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734441016527</updated>
+      <workItem from="1734441017568" duration="415000" />
+      <workItem from="1734441447354" duration="2631000" />
+      <workItem from="1734445711393" duration="71000" />
+      <workItem from="1734445963267" duration="280000" />
+      <workItem from="1734446289827" duration="4461000" />
+      <workItem from="1734465686739" duration="1145000" />
+      <workItem from="1734862350721" duration="4865000" />
+      <workItem from="1734906357111" duration="10000" />
+      <workItem from="1734951177056" duration="2113000" />
+      <workItem from="1734953944230" duration="5848000" />
+      <workItem from="1734966816464" duration="166000" />
+      <workItem from="1734967040804" duration="1665000" />
+      <workItem from="1735233901119" duration="824000" />
+      <workItem from="1735387346793" duration="8009000" />
+      <workItem from="1735401967040" duration="309000" />
+      <workItem from="1735464825944" duration="16339000" />
+      <workItem from="1735551964617" duration="9807000" />
+      <workItem from="1735568615478" duration="6937000" />
+      <workItem from="1735575663571" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:react" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:tailwindcss" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:prisma" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:next" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:postcss" />
+  </component>
+</project>
