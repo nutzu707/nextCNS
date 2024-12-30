@@ -50,7 +50,7 @@ export default async function Proiecte() {
     return (
         <div>
             <PageBody>
-                <PageTitle text="PROIECTE" />
+                <PageTitle text="PROIECTEasda" />
                 <div className="mt-32 self-center">
                     <div className="space-y-[25px] w-[1000px]">
                         {projects.map((project, index) => {
