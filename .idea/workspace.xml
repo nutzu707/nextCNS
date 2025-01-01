@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="" />
+    <list default="true" id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="commmit">
+      <change afterPath="$PROJECT_DIR$/app/(pages)/catedre/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(pages)/consiliu-profesoral/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(pages)/diriginti/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(pages)/examene/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/faq/faq.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/refreshbutton/refreshbutton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/consiliu-profesoral.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/diriginti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/catedra-de-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/catedra-de-isto-socio-arte-sport (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/catedra-de-limbi-moderne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/catedra-de-limbi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/catedra-de-mate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/catedra-de-stiinte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/personal-auxiliar (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/cjex-salaj/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/cjex-salaj/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/conducere/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/conducere/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/consiliu-de-administratie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/consiliu-de-administratie/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/elevi-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/elevi-documente/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/management-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/management-documente/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/profesori-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/profesori-documente/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/proiecte/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/proiecte/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/archivebutton/archivebutton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/archivebutton/archivebutton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/createnewsarticle/createnewsarticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/createnewsarticle/createnewsarticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/createproject/createproject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/createproject/createproject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/displaydocumentsdash/displaydocumentsdash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocumentsdash/displaydocumentsdash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/modifyconducere/modifyconducere.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/modifyconducere/modifyconducere.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/navbar/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/pagetitle/pagetitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/pagetitle/pagetitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/documents/documente-management/6m.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +51,14 @@
       <set />
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -24,6 +66,7 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2qLTmncrUpg3ppJujOA2XvIhxhj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +76,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ionut/nextjs-fullstack-auth-edge-main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;asd&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ionut/Downloads/nextjs-fullstack-auth-edge-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -45,18 +89,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\cjex-salaj" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\websitedocs" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\consiliu-de-administratie" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\websiteUI" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\app" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\photos" />
       <recent name="C:\Users\Ionut\" />
       <recent name="C:\Users\Ionut\WebstormProjects" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\websiteUI" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\app\(pages)" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\documente-management" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +130,35 @@
       <workItem from="1735551964617" duration="9807000" />
       <workItem from="1735568615478" duration="6937000" />
       <workItem from="1735575663571" duration="26000" />
+      <workItem from="1735575812021" duration="11140000" />
+      <workItem from="1735745568777" duration="6471000" />
+      <workItem from="1735754360136" duration="7964000" />
     </task>
+    <task id="LOCAL-00001" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1735583979450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735583979450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1735584319950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735584319950</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1735584483271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735584483271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +170,32 @@
     <option featureType="dependencySupport" implementationName="javascript:npm:prisma" />
     <option featureType="dependencySupport" implementationName="javascript:npm:next" />
     <option featureType="dependencySupport" implementationName="javascript:npm:postcss" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commmit" />
   </component>
 </project>

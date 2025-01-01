@@ -38,10 +38,16 @@ const DocumentsListDash = async ({ folderPath }: DocumentsListProps) => {
 
 
                         return (
-                            <li key={index}>
-                                {/* Generate correct relative link */}
-                                <Link href={`/${documentPath}`}>{document}</Link>
-                                <Archivebutton firstFolder={folderPath} fileName={document}></Archivebutton>
+                            <li key={index} className="flex w-full border-t-2 text-2xl">
+                                <div className="w-[500px] break-all content-center">
+                                    <Link href={`/${documentPath}`}>{document}</Link>
+                                </div>
+
+
+                                <div className="mr-0 ml-auto content-center py-2">
+                                    <Archivebutton firstFolder={folderPath} fileName={document}></Archivebutton>
+                                </div>
+
                             </li>
                         );
                     })

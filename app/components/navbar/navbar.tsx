@@ -19,6 +19,9 @@ const Navbar = () => {
     ];
     const profesoriOptions = [
         { title: "Documente", link: "/profesori-documente" },
+        { title: "Consiliu Profesoral", link: "/consiliu-profesoral" },
+        { title: "Catedre", link: "/catedre" },
+        { title: "Diriginti", link: "/diriginti" },
 
     ];
 
@@ -40,7 +43,7 @@ const Navbar = () => {
                 <NavbarButton title="MANAGEMENT" options={managementOptions} />
                 <NavbarButton title="ELEVI" options={eleviOptions} />
                 <NavbarButton title="PROFESORI" options={profesoriOptions} />
-                <NavbarButton title="EXAMENE" link="/" />
+                <NavbarButton title="EXAMENE" link="/examene" />
                 <NavbarButton title="PROIECTE" link="/proiecte" />
                 <NavbarButton title="CONTACT" link="/contact" />
             </div>

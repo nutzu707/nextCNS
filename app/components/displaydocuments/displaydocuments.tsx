@@ -45,7 +45,7 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
                                 <hr className="solid border-t-2" />
                                 <div className="flex mt-1 mb-1">
                                     <img className="w-8 mr-2" src="/websiteUI/document-icon.png" alt="icon" />
-                                    <Link className="text-2xl font-bold" href={`/${documentPath}`} target="_blank">
+                                    <Link className="text-2xl font-bold overflow-hidden" href={`/${documentPath}`} target="_blank">
                                         {document}
                                     </Link>
                                 </div>

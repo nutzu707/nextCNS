@@ -64,59 +64,61 @@ const CreateProjectJsonFile = () => {
     };
 
     return (
-        <div className="create-json-file">
-            <h2>Create Project JSON File</h2>
-            <div className="form-group">
-                <label>Title:</label>
+        <div className="w-full ">
+            <div className="rounded-md shadow-2xl border-2">
+            <div className="items-center flex flex-col mt-16">
                 <input
                     type="text"
                     value={title}
                     onChange={handleTitleChange}
-                    placeholder="Enter the project title"
+                    placeholder="Titlu"
+                    className="border-2 p-1 shadow-2xl rounded-md text-center w-[90%]"
                 />
             </div>
 
-            {/* New Thumbnail Upload Field */}
-            <div className="form-group">
-                <label>Thumbnail:</label>
+            <div className="items-center flex flex-col mt-4">
+                <label>Thumbnail</label>
                 <input
                     type="file"
                     accept="image/*"
                     onChange={(e) => e.target.files && handleThumbnailUpload(e.target.files[0])}
+                    className="w-[300px] mt-1 file:bg-white bg-none file:cursor-pointer file:border-gray-300 file:clear-start file:border-2  file:rounded-md file:hover:bg-gray-200 file:shadow-xl file:text-xl  "
                 />
                 {photo && (
                     <div>
-                        <p>Thumbnail Preview:</p>
                         <img
                             src={photo}
                             alt="Thumbnail Preview"
-                            style={{ maxWidth: '200px', maxHeight: '200px' }}
+                            className="rounded-xl shadow-2xl mt-4 w-[300px] object-cover"
                         />
                     </div>
                 )}
             </div>
-            <div className="form-group">
-                <label>Project Link:</label>
+            <div className="items-center flex flex-col mt-4">
                 <input
                     type="text"
                     value={link}
                     onChange={(e) => setLink(e.target.value)}
-                    placeholder="Enter a link for the project (e.g., YouTube)"
+                    placeholder="Link la proiect"
+                    className="border-2 p-1 shadow-2xl rounded-md text-center my-2 w-[90%]"
                 />
             </div>
-            <div className="form-group">
-                <label>Color:</label>
+                <div className="items-center flex flex-col mt-4">
+                <label>Culoare</label>
                 <input
                     type="color"
                     value={color}
                     onChange={handleColorChange}
                     placeholder="Pick a color"
+                    className="w-20"
                 />
             </div>
 
-            <button onClick={generateJson} className="generate-json">
-                Generate JSON
+
+            <button onClick={generateJson} className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold mt-8 p-1 mb-16  mx-auto block px-4">
+                Creeaza proiect
             </button>
+            </div>
         </div>
     );
 };

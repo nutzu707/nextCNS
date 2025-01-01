@@ -31,8 +31,8 @@ export default async function ConsiliuDeAdministratie() {
                                 src={person.photo}
                                 alt={person.name}
                             />
-                            <p className="font-bold text-3xl mt-4">{person.name}</p>
-                            <p className="font-bold text-xl text-indigo-900">{person.position}</p>
+                            <p className="font-bold text-3xl mt-4 uppercase">{person.name}</p>
+                            <p className="font-bold text-xl text-indigo-900 uppercase">{person.position}</p>
                         </div>
                     ))}
                 </div>

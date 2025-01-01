@@ -11,7 +11,7 @@ export default function ManagementDocumente() {
             <PageBody>
                 <PageTitle text="DOCUMENTE MANAGEMENT"></PageTitle>
                 <div className="w-[1000px] self-center mt-32 shadow-2xl p-10 rounded-2xl border-2">
-                    <p className="text-5xl font-bold text-indigo-900 mb-4">{currentYear}</p>
+                    <p className="lg:text-5xl text-3xl font-bold text-indigo-900 mb-4">{currentYear}</p>
                     <DocumentList folderPath="public/documents/documente-management"></DocumentList>
                 </div>
                 <Footer/>

@@ -67,7 +67,7 @@ export default async function Proiecte() {
                                     className={`w-full h-[100px] flex items-center rounded-2xl shadow-2xl cursor-pointer ${textColor}`}
                                     style={{ backgroundColor: bgColor }} // Apply the background color dynamically
                                 >
-                                    <h1 className="text-5xl font-bold ml-10">
+                                    <h1 className="text-5xl font-bold ml-10 uppercase">
                                         {project.project.title}
                                     </h1>
                                     <img

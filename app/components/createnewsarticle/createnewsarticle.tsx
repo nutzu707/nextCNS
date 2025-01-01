@@ -1,9 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import uploadnewstoserver from "@/app/components/uploadnewstoserver/uploadnewstoserver";
 
-const CreateJsonFile = () => {
+const CreateNews = () => {
     const [title, setTitle] = useState('');
     const [postDate, setPostDate] = useState('');
     const [thumbnail, setThumbnail] = useState<string | null>(null); // New state for thumbnail
@@ -87,74 +87,76 @@ const CreateJsonFile = () => {
 
 
     return (
-        <div className="create-json-file">
-            <h2>Create JSON File</h2>
-            <div className="form-group">
-                <label>Title:</label>
+        <div className="w-full ">
+            <div className="rounded-md shadow-2xl border-2">
+            <div className="items-center flex flex-col mt-16">
                 <input
                     type="text"
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
-                    placeholder="Enter the title"
+                    placeholder="Titlu"
+                    className="border-2 p-1 shadow-2xl rounded-md text-center w-[90%] "
                 />
             </div>
-            <div className="form-group">
-                <label>Post Date:</label>
+            <div className="items-center flex flex-col mt-4">
                 <input
                     type="date"
                     value={postDate}
+                    className="border-2 p-1 shadow-2xl rounded-md text-center w-[90%]"
                     onChange={(e) => setPostDate(e.target.value)}
                 />
             </div>
-            {/* New Thumbnail Upload Field */}
-            <div className="form-group">
-                <label>Thumbnail:</label>
+            <div className="items-center flex flex-col mt-4 mb-8">
+                <label>Thumbnail</label>
                 <input
                     type="file"
                     accept="image/*"
                     onChange={(e) => e.target.files && handleThumbnailUpload(e.target.files[0])}
+                    className="w-[300px] mt-1 file:bg-white bg-none file:cursor-pointer file:border-gray-300 file:clear-start file:border-2  file:rounded-md file:hover:bg-gray-200 file:shadow-xl file:text-xl  "
                 />
+
                 {thumbnail && (
                     <div>
-                        <p>Thumbnail Preview:</p>
                         <img
                             src={thumbnail}
                             alt="Thumbnail Preview"
-                            style={{ maxWidth: '200px', maxHeight: '200px' }}
+                            className="rounded-xl shadow-2xl mt-4 w-[300px] h-[165px] object-cover"
                         />
                     </div>
                 )}
             </div>
-            <div className="content-editor">
-                <h3>Content:</h3>
+            </div>
+            <div className="items-center flex flex-col mt-4">
                 {content.map((item, index) => (
-                    <div key={index} className="content-item">
-                        <p>Type: {item.type}</p>
+                    <div key={index} className="w-full">
                         {item.type === 'paragraph' && (
                             <textarea
                                 value={item.text || ''}
                                 onChange={(e) =>
                                     updateContentItem(index, 'text', e.target.value)
                                 }
-                                placeholder="Enter paragraph text"
+                                placeholder="Text Paragraf "
+                                className="resize-none border-2 rounded-md shadow-2xl w-full h-[200px] p-2 "
                             />
                         )}
                         {item.type === 'image' && (
-                            <>
+                            <div className="items-center flex flex-col border-2 shadow-2xl rounded-md">
                                 <input
                                     type="file"
                                     accept="image/*"
                                     onChange={(e) =>
                                         e.target.files && handleFileUpload(index, e.target.files[0])
                                     }
+                                    className="w-[300px] mt-1 file:bg-white bg-none file:cursor-pointer file:border-gray-300 file:clear-start file:border-2  file:rounded-md file:hover:bg-gray-200 file:shadow-xl file:text-xl "
+
                                 />
                                 {item.imageData && (
                                     <div>
-                                        <p>Image Preview:</p>
                                         <img
                                             src={item.imageData}
                                             alt={`Preview ${index}`}
-                                            style={{ maxWidth: '200px', maxHeight: '200px' }}
+                                            className="rounded-xl shadow-2xl mt-4 w-[300px] h-[165px] object-cover"
+
                                         />
                                     </div>
                                 )}
@@ -164,21 +166,26 @@ const CreateJsonFile = () => {
                                     onChange={(e) =>
                                         updateContentItem(index, 'caption', e.target.value)
                                     }
-                                    placeholder="Enter image caption"
+                                    placeholder="Descriere Imagine "
+                                    className="border-2 p-1 shadow-2xl rounded-md text-center my-2"
+
                                 />
-                            </>
+                            </div>
                         )}
-                        <button onClick={() => deleteContentItem(index)}>Delete</button>
+                        <button className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold p-1 mb-8 mx-auto block mt-2" onClick={() => deleteContentItem(index)}>Sterge</button>
                     </div>
                 ))}
-                <button onClick={() => addContentItem('paragraph')}>Add Paragraph</button>
-                <button onClick={() => addContentItem('image')}>Add Image</button>
-            </div>
-            <button onClick={generateJson} className="generate-json">
-                Generate JSON
+                <div className="flex mt-4">
+                    <button className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold p-1 mr-2 px-4" onClick={() => addContentItem('paragraph')}>Adauga paragraf</button>
+                    <button className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold p-1 px-4" onClick={() => addContentItem('image')}>Adauga imagine</button>
+
+                </div>
+                 </div>
+            <button onClick={generateJson} className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold mt-8 p-1 mb-16  mx-auto block px-4">
+                Posteaza anunt
             </button>
         </div>
     );
 };
 
-export default CreateJsonFile;
+export default CreateNews;

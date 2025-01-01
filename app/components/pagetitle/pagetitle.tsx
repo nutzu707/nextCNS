@@ -7,7 +7,7 @@ const PageTitle = ({text}) => {
     return (
         <div className="flex items-center justify-center w-full pt-32">
             <div className="h-0.5 bg-[#E5E7EB] animate-growFromCenter hidden lg:block"></div>
-            <h2 className="text-center text-5xl font-bold mx-5 lg:text-7xl min-w-fit">{text}</h2>
+            <h2 className="text-center text-5xl font-bold mx-5 lg:text-7xl min-w-fit uppercase">{text}</h2>
             <div className="h-0.5 bg-[#E5E7EB] animate-growFromCenter hidden lg:block"></div>
         </div>
     );

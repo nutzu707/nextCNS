@@ -32,14 +32,15 @@ const archiveButton = ({firstFolder, fileName}: { firstFolder: string; fileName:
     return (
         <div>
             <div className="relative inline-flex group">
-                <div>
-                    <Button>Archive</Button>
-                </div>
-                <div className=" group-hover:opacity-100 group-hover:block opacity-0 hidden transition-opacity">
+                <div className=" group-hover:opacity-100 group-hover:block opacity-0 hidden transition-opacity mr-1">
                     <div>
-                        <Button formAction={functie}  className="ml-4">Confirm</Button>
+                        <Button formAction={functie}  className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold">Confirm</Button>
                     </div>
                 </div>
+                <div>
+                    <Button className="text-xl rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200 font-bold">Archive</Button>
+                </div>
+
             </div>
 
 
