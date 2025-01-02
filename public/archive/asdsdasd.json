@@ -1,0 +1,17 @@
+{
+  "article": {
+    "title": "asdsdasd",
+    "post_date": "2024-12-06",
+    "content": [
+      {
+        "type": "image",
+        "url": "asddas",
+        "caption": ""
+      },
+      {
+        "type": "paragraph",
+        "text": "dasasdasd"
+      }
+    ]
+  }
+}

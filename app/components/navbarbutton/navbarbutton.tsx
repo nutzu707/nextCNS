@@ -23,12 +23,12 @@ const NavbarButton = ({ title, options, link  }) => {
                 {title}
             </button>
 
-            <div className="absolute left-0 bg-white border-2 shadow-2xl opacity-0 transform scale-y-0 origin-top transition-all duration-75 ease-out group-hover:opacity-100 group-hover:scale-y-100 rounded-xl">
+            <div className="absolute left-0 p-1 bg-white border-2 shadow-2xl opacity-0 transform scale-y-0 origin-top transition-all duration-75 ease-out group-hover:opacity-100 group-hover:scale-y-100 rounded-xl">
                 <ul>
                     {options.map((option, index) => (
                         <li
                             key={index}
-                            className="mx-1 my-1 px-2 hover:bg-gray-100 cursor-pointer font-bold text-xl rounded-md whitespace-nowrap "
+                            className=" px-2 hover:bg-gray-100 cursor-pointer font-bold text-xl rounded-md whitespace-nowrap "
                         >
                             <Link href={option.link} className="block">
                                 {option.title}

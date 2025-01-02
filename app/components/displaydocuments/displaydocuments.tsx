@@ -30,7 +30,7 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
         <div>
             <ul>
                 {documentFiles.length === 0 ? (
-                    <li>No documents available</li>
+                    <li></li>
                 ) : (
                     documentFiles.map((document, index) => {
                         const documentPath = path.join('documents', path.basename(folderPath), document);
@@ -43,9 +43,9 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
                                 style={{ animationDelay: delay }} // Apply delay as an inline style
                             >
                                 <hr className="solid border-t-2" />
-                                <div className="flex mt-1 mb-1">
-                                    <img className="w-8 mr-2" src="/websiteUI/document-icon.png" alt="icon" />
-                                    <Link className="text-2xl font-bold overflow-hidden" href={`/${documentPath}`} target="_blank">
+                                <div className="flex mt-1 lg:mb-1">
+                                    <img className="lg:w-8 w-6 lg:h-8 h-6 mr-2" src="/websiteUI/document-icon.png" alt="icon" />
+                                    <Link className="lg:text-2xl text-xl font-bold break-all" href={`/${documentPath}`} target="_blank">
                                         {document}
                                     </Link>
                                 </div>

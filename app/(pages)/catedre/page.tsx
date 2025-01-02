@@ -11,12 +11,12 @@ export default function Catedre() {
         <div>
             <PageBody>
                 <PageTitle text="CATEDRE"/>
-                <div className="mt-32">
+                <div className="mt-16 lg:mt-32">
                     <h1 className="lg:hidden block text-center text-2xl font-bold">INFORMATICĂ</h1>
                     <div className="w-full relative aspect-[1400/500]">
                         <img src="/photos/catedra-de-info.png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             INFORMATICĂ
                         </span>
                         </div>
@@ -27,7 +27,7 @@ export default function Catedre() {
                     <div className="w-full relative  aspect-[1400/500]">
                         <img src="/photos/catedra-de-mate.png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             MATEMATICĂ
                         </span>
                         </div>
@@ -38,7 +38,7 @@ export default function Catedre() {
                     <div className="w-full relative  aspect-[1400/500]">
                         <img src="/photos/catedra-de-limbi.png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             LIMBA ROMANĂ
                         </span>
                         </div>
@@ -49,7 +49,7 @@ export default function Catedre() {
                     <div className="w-full relative  aspect-[1400/500]">
                         <img src="/photos/catedra-de-stiinte.png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             ȘTIINȚE
                         </span>
                         </div>
@@ -60,7 +60,7 @@ export default function Catedre() {
                     <div className="w-full relative  aspect-[1400/500]">
                         <img src="/photos/catedra-de-limbi-moderne.png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             LIMBI MODERNE
                         </span>
                         </div>
@@ -71,7 +71,7 @@ export default function Catedre() {
                     <div className="w-full relative  aspect-[1400/500]">
                         <img src="/photos/catedra-de-isto-socio-arte-sport%20(1).png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             ISTORIE SOCIO ARTE SPORT
                         </span>
                         </div>
@@ -82,7 +82,7 @@ export default function Catedre() {
                     <div className="w-full relative  aspect-[1400/500]">
                         <img src="/photos/personal-auxiliar%20(1).png" alt="catedra" className="absolute top-0 left-0 w-full h-full object-cover rounded-2xl border-2 shadow-2xl" />
                         <div className="absolute inset-x-0 justify-center lg:items-end items-start bottom-0 lg:pb-4 pt-2 hidden lg:flex">
-                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl">
+                        <span className="bg-white lg:text-5xl text-xl font-bold lg:p-4 p-2 rounded-xl border-2 shadow-2xl">
                             PERSONAL AUXILIAR
                         </span>
                         </div>

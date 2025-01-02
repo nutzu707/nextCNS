@@ -1,16 +1,23 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
+    webpack(config, { isServer }) {
+        if (!isServer) {
+            config.performance = {
+                maxAssetSize: 100000,
+                maxEntrypointSize: 100000,
+            };
+        }
+        return config;
+    },
+
+
     experimental: {
         serverActions: {
-            bodySizeLimit: '128mb',
+            bodySizeLimit: '256mb',
         },
     },
     typescript: {
-        // !! WARN !!
-        // Dangerously allow production builds to successfully complete even if
-        // your project has type errors.
-        // !! WARN !!
         ignoreBuildErrors: true,
     },
 }

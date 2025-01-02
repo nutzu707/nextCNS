@@ -22,7 +22,7 @@ import LoadingButton from "@/components/loading-button";
 import {
     handleCredentialsSignin,
 } from "@/app/actions/authActions";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import ErrorMessage from "@/components/error-message";
 import { Button } from "@/components/ui/button";
 
@@ -31,14 +31,24 @@ import PageBody from "@/app/components/pagebody/pagebody";
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import Footer from "@/app/components/footer/footer";
 
-
-
-import { Suspense } from 'react'
-
-
-export default function SignIn() {
+function Asd(){
     const params = useSearchParams();
     const error = params.get("error");
+    return (
+            <SignInForm error={error} />
+    );
+}
+
+const SearchParamsSuspense = () => {
+
+    return (
+        <Suspense >
+            <Asd/>
+        </Suspense>
+    );
+};
+
+const SignInForm = ({ error }: { error: string | null }) => {
     const router = useRouter();
 
     const [globalError, setGlobalError] = useState<string>("");
@@ -82,61 +92,62 @@ export default function SignIn() {
     return (
         <div>
             <PageBody>
-                <PageTitle text={"LOG IN"}></PageTitle>
+                <PageTitle text={"LOG IN"} />
 
-                    {globalError && <ErrorMessage error={globalError} />}
-                    <Form {...form}>
-                        <form
-                            onSubmit={form.handleSubmit(onSubmit)}
-                            className="space-y-8 lg:w-[500px] self-center mt-32"
-                        >
-                            <FormField
-                                control={form.control}
-                                name="email"
-                                render={({ field }) => (
-                                    <FormItem>
-                                        <FormControl>
-                                            <Input
-                                                type="email"
-                                                placeholder="EMAIL"
-                                                autoComplete="off"
-                                                {...field}
-                                            />
-                                        </FormControl>
-                                        <FormMessage />
-                                    </FormItem>
-                                )}
-                            />
+                {globalError && <ErrorMessage error={globalError} />}
+                <Form {...form}>
+                    <form
+                        onSubmit={form.handleSubmit(onSubmit)}
+                        className="space-y-8 lg:w-[500px] self-center mt-32"
+                    >
+                        <FormField
+                            control={form.control}
+                            name="email"
+                            render={({ field }) => (
+                                <FormItem>
+                                    <FormControl>
+                                        <Input
+                                            type="email"
+                                            placeholder="EMAIL"
+                                            autoComplete="off"
+                                            {...field}
+                                        />
+                                    </FormControl>
+                                    <FormMessage />
+                                </FormItem>
+                            )}
+                        />
 
-                            <FormField
-                                control={form.control}
-                                name="password"
-                                render={({ field }) => (
-                                    <FormItem>
-                                        <FormLabel></FormLabel>
-                                        <FormControl>
-                                            <Input
-                                                type="password"
-                                                placeholder="PAROLA"
-                                                {...field}
-                                            />
-                                        </FormControl>
-                                        <FormMessage />
-                                    </FormItem>
-                                )}
-                            />
+                        <FormField
+                            control={form.control}
+                            name="password"
+                            render={({ field }) => (
+                                <FormItem>
+                                    <FormLabel></FormLabel>
+                                    <FormControl>
+                                        <Input
+                                            type="password"
+                                            placeholder="PAROLA"
+                                            {...field}
+                                        />
+                                    </FormControl>
+                                    <FormMessage />
+                                </FormItem>
+                            )}
+                        />
 
-                            <LoadingButton
-                                pending={form.formState.isSubmitting}
-                            >
-                                LOG IN
-                            </LoadingButton>
-
-                        </form>
-                    </Form>
+                        <LoadingButton pending={form.formState.isSubmitting}>
+                            LOG IN
+                        </LoadingButton>
+                    </form>
+                </Form>
 
                 <div className="mt-10"></div>
             </PageBody>
         </div>
     );
+};
+
+export default function SignIn() {
+    return <SearchParamsSuspense />;
 }

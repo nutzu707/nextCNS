@@ -35,7 +35,7 @@ export default async function ArhivaPage() {
         <div>
             <PageBody>
                 <PageTitle text="ARHIVA FOTO"></PageTitle>
-                <div className="mt-32 justify-center " style={{ display: 'flex', flexWrap: 'wrap' }}>
+                <div className="mt-16 lg:mt-32 justify-center " style={{ display: 'flex', flexWrap: 'wrap' }}>
                     {shuffledImages.map((image, index) => (
                         <div key={index} style={{ margin: 10 }}>
                             <a
@@ -46,7 +46,7 @@ export default async function ArhivaPage() {
                                 <img
                                     src={`/arhiva-foto/${image}`}
                                     alt={`image-${index}`}
-                                    className="lg:w-[300px] md:w-[300px] w-full shadow-2xl rounded-xl"
+                                    className="lg:w-[300px] md:w-[300px] w-full shadow-2xl rounded-xl border-2"
                                 />
                             </a>
                         </div>

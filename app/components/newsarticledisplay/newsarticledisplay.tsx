@@ -41,14 +41,14 @@ const NewsArticleDisplay = ({ anunt }: { anunt: string }) => {
     return (
         <div>
             <PageBody>
-                <div className="w-[725px] self-center">
-                    <h1 className="text-5xl mt-32 font-bold">{article.title}</h1>
+                <div className="lg:w-[725px] w-full self-center">
+                    <h1 className="lg:text-5xl text-3xl mt-32 font-bold">{article.title}</h1>
                     <p className="text-sm font-bold text-gray-500 mt-4">{new Date(article.post_date).toLocaleDateString()}</p>
                     <img
 
                         src={article.thumbnail}
                         alt={`${article.title} thumbnail`}
-                        className="mt-4 w-[725px] h-[405px] rounded-xl shadow-xl border border-solid object-cover mb-8"
+                        className="mt-4 lg:w-[725px] lg:h-[405px] w-full aspect-[16/9] rounded-xl shadow-xl border-solid object-cover mb-8 border-2"
                     />
                     <div className="article-content">
                         {article.content.map((item, index) => {
@@ -64,7 +64,7 @@ const NewsArticleDisplay = ({ anunt }: { anunt: string }) => {
                                         <img
                                             src={item.imageData || item.url} // Use imageData first, fallback to URL
                                             alt={item.caption || `Image ${index}`}
-                                            className="mt-4 w-[725px] h-[405px] rounded-xl shadow-xl border border-solid object-cover"
+                                            className="mt-4 lg:w-[725px] lg:h-[405px] w-full aspect-[16/9] rounded-xl shadow-xl border-solid object-cover border-2"
 
                                         />
                                         {item.caption && <p className="text-sm font-bold text-gray-500 mt-1">{item.caption}</p>}

@@ -1,0 +1,33 @@
+{
+  "article": {
+    "title": "model de titlu ",
+    "post_date": "2025-01-02",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "iadsojasfioasdnjifasj"
+      },
+      {
+        "type": "paragraph",
+        "text": "safgdoiuhasdfihaosdfih"
+      },
+      {
+        "type": "paragraph",
+        "text": "fasdpiouhasdfiu9hasfd"
+      },
+      {
+        "type": "paragraph",
+        "text": "asfdo9ihasdfiojhasdf"
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/en/9/9d/Link_(Hyrule_Historia).png",
+        "caption": ""
+      },
+      {
+        "type": "paragraph",
+        "text": "adsasdasd"
+      }
+    ]
+  }
+}

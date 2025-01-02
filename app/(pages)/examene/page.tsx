@@ -23,16 +23,16 @@ export default function Examene() {
         <div>
             <PageBody>
                 <PageTitle text="EXAMENE ȘI CONCURSURI"/>
-                <div className="w-[1000px] self-center mt-32 shadow-2xl p-10 rounded-2xl border-2">
+                <div className="lg:w-[1000px] w-full self-center mt-16 lg:mt-32 shadow-2xl p-10 rounded-2xl border-2">
 
-                    <p className="text-5xl font-bold text-indigo-900 mb-4">Examene</p>
+                    <p className="lg:text-5xl text-3xl font-bold text-indigo-900 mb-4">Examene</p>
                     <hr className="solid border-t-2 mt-2" />
 
                     {examene.map((faq, index) => (
                         <FaqItem key={index} title={faq.title} content={faq.content} />
                     ))}
 
-                    <p className="text-5xl font-bold text-indigo-900 mb-4 mt-6 ">Concursuri</p>
+                    <p className="lg:text-5xl text-3xl font-bold text-indigo-900 mb-4 mt-6 ">Concursuri</p>
                     <hr className="solid border-t-2 mt-2" />
 
                     {concursuri.map((faq, index) => (

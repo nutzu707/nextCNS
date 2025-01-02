@@ -4,6 +4,7 @@ import PageBody from "@/app/components/pagebody/pagebody";
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import NewsBox from "@/app/components/newsbox/newsbox";
 import Footer from "@/app/components/footer/footer";
+import {Button} from "@/components/ui/button";
 
 async function getNewsItems() {
     const newsDirectory = path.join(process.cwd(), 'public', 'news');
@@ -34,8 +35,8 @@ export default async function Home() {
     return (
         <div>
             <PageBody>
-                <div className="bg-[url('/websiteUI/schita-liceu-blurred.png')] bg-cover bg-right w-full flex h-[500px] rounded-2xl mt-48 shadow-2xl border-solid border-2 lg:bg-[url('/websiteUI/schita-liceu.png')]">
-                    <div className="w-full self-center justify-center text-center lg:text-left lg:ml-16 lg:w-[470px]">
+                <div className="bg-[url('/websiteUI/schita-liceu-blurred.jpg')] bg-cover bg-right w-full flex h-[500px] rounded-2xl mt-48 shadow-2xl border-solid border-2 lg:bg-[url('/websiteUI/schita-liceu.jpg')]">
+                    <div className="w-full mt-32 justify-center text-center lg:text-left lg:ml-16 lg:w-[470px]">
                         <h1 className="text-3xl font-bold md:text-5xl animate-fadeUp">
                             COLEGIUL NAȚIONAL
                         </h1>
@@ -45,8 +46,12 @@ export default async function Home() {
                         <h1 className="text-lg font-bold -mt-1 md:text-2xl animate-fadeUp">
                             Performanță și excelență prin integrarea tradiției în modernitate!
                         </h1>
+                        <a href="/prezentare" className="self-center animate-fadeUp">
+                            <Button className="text-xl  rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200  font-bold mt-8">Prezentare</Button>
+                        </a>
                     </div>
                 </div>
+
 
                 <PageTitle text="ANUNȚURI" />
                 <NewsBox newsItems={newsItems} />

@@ -36,7 +36,7 @@ const ConsiliuProfesoral = () => {
             <PageBody>
                 <PageTitle text="CONSILIU PROFESORAL"></PageTitle>
 
-                <ul className="mt-32 self-center shadow-2xl lg:p-10 p-2  rounded-2xl w-full lg:w-[1000px] border-2">
+                <ul className="mt-16 lg:mt-32 self-center shadow-2xl lg:p-10 p-2  rounded-2xl w-full lg:w-[1000px] border-2">
                     <p className="lg:text-5xl text-3xl font-bold text-indigo-900 lg:mb-4 mb-2">{currentYear}</p>
 
                     <div

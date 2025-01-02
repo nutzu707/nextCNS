@@ -51,8 +51,8 @@ export default async function Proiecte() {
         <div>
             <PageBody>
                 <PageTitle text="PROIECTE" />
-                <div className="mt-32 self-center">
-                    <div className="space-y-[25px] w-[1000px]">
+                <div className="mt-16 lg:mt-32 self-center">
+                    <div className="space-y-[25px] lg:w-[1000px] w-full">
                         {projects.map((project, index) => {
                             const bgColor = project.project.color; // Background color from JSON
                             const textColor = getContrastingTextColor(bgColor); // Get contrasting text color
@@ -64,17 +64,35 @@ export default async function Proiecte() {
                                     href={link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className={`w-full h-[100px] flex items-center rounded-2xl shadow-2xl cursor-pointer ${textColor}`}
-                                    style={{ backgroundColor: bgColor }} // Apply the background color dynamically
+                                    className={`w-full h-[300px] lg:h-[100px] lg:flex  cursor-pointer ${textColor}`}
+
+
                                 >
-                                    <h1 className="text-5xl font-bold ml-10 uppercase">
-                                        {project.project.title}
-                                    </h1>
-                                    <img
-                                        src={project.project.photo}
-                                        alt={project.project.title}
-                                        className="h-[95%] ml-auto mr-10"
-                                    />
+
+                                        <div className="w-full h-[100px] items-center hidden lg:flex rounded-2xl shadow-2xl" style={{ backgroundColor: bgColor }}>
+                                            <h1 className="lg:text-5xl text-3xl font-bold lg:ml-10 uppercase">
+                                                {project.project.title}
+                                            </h1>
+                                            <img
+                                                src={project.project.photo}
+                                                alt={project.project.title}
+                                                className="lg:h-[95%] h-[100px] lg:ml-auto lg:mr-10"
+                                            />
+                                        </div>
+
+                                    <div className="w-full h-[200px] justify-center items-center flex flex-col lg:hidden rounded-2xl shadow-2xl mb-4" style={{ backgroundColor: bgColor }}>
+                                        <h1 className="lg:text-5xl text-3xl  text-center px-4 font-bold lg:ml-10 uppercase">
+                                            {project.project.title}
+                                        </h1>
+                                        <img
+                                            src={project.project.photo}
+                                            alt={project.project.title}
+                                            className="h-[100px]"
+                                        />
+                                    </div>
+
+
+
                                 </a>
                             );
                         })}

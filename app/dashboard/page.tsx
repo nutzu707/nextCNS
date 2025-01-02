@@ -14,6 +14,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import RefreshButton from "@/app/components/refreshbutton/refreshbutton";
 import CreateNews from "@/app/components/createnewsarticle/createnewsarticle";
+import DocumentList from "@/app/components/displaydocuments/displaydocuments";
 
 
 export default async function Dashboard() {
@@ -44,7 +45,7 @@ export default async function Dashboard() {
                 <PageTitle text="DASHBOARD"></PageTitle>
 
                 <form action={handleSignOut}>
-                    <Button className="text-xl mt-20 rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200  font-bold" variant="default" type="submit">
+                    <Button className="text-xl  rounded-md shadow-xl bg-white text-black border-2 border-solid hover:bg-gray-200  font-bold" variant="default" type="submit">
                         SIGN OUT
                     </Button>
                 </form>
@@ -82,6 +83,9 @@ export default async function Dashboard() {
                             <hr className="solid border-t-2" />
                         </div>
                     </form>
+                </div>
+                <div>
+                    <DocumentList folderPath="public/documents/documente-elevi"/>
                 </div>
                 <div className="lg:w-[1000px] w-full self-center mt-16 shadow-2xl p-10 rounded-2xl border-2 text-2xl font-bold">
                     <p className="lg:text-5xl text-3xl font-bold text-indigo-900 mb-4">DOCUMENTE PROFESORI</p>
