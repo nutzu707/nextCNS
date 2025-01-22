@@ -62,7 +62,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="p-4 border-b-[#E5E7EB] border-solid border-b-2 flex fixed bg-white w-full items-center  z-10 ">
+        <div className="p-4 border-b-[#E5E7EB] border-solid border-b-2 flex fixed bg-white w-full items-center z-10">
 
             <div className="z-50">
                 <a href="/">

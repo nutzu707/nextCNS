@@ -41,8 +41,8 @@ export default async function Dashboard() {
 
             <PageBody>
                 <PageTitle text="DASHBOARD"></PageTitle>
-
-                <div className="h-20 hidden bg-white lg:flex fixed bottom-0 self-center z-50 ">
+                <h1>soon</h1>
+                <div className="h-20 hidden bg-white lg:flex fixed bottom-0 self-center z-50 hidden">
                     <div className="flex h-16 rounded-xl border-2 shadow-2xl justify-center items-center px-3">
                         <Navbardashboard/>
                         <form action={handleSignOut}>
