@@ -33,7 +33,7 @@ const DocumentsListDash = async ({ folderPath }: DocumentsListProps) => {
                     <li>No documents available</li>
                 ) : (
                     documentFiles.map((document, index) => {
-                        const documentPath = path.join(path.basename(folderPath), document);
+                        const documentPath = path.join('api/assets/documents', path.basename(folderPath), document);
 
 
 

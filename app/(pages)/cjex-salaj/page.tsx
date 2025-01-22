@@ -3,8 +3,11 @@ import PageBody from "@/app/components/pagebody/pagebody";
 import DocumentList from "@/app/components/displaydocuments/displaydocuments";
 import React from "react";
 import Footer from "@/app/components/footer/footer";
+import {auth} from "@/auth";
 
-export default function CJEXSalaj() {
+export default async function CJEXSalaj() {
+    const session = await auth();
+
     const currentYear = new Date().getFullYear();
 
     return (

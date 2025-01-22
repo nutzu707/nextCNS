@@ -6,6 +6,7 @@ import React from 'react';
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import PageBody from "@/app/components/pagebody/pagebody";
 import Footer from "@/app/components/footer/footer";
+import {auth} from "@/auth";
 
 // Utility to calculate luminance and determine text color
 const getContrastingTextColor = (bgColor: string): string => {
@@ -35,6 +36,8 @@ const ensureProtocol = (url: string): string => {
 };
 
 export default async function Proiecte() {
+    const session = await auth();
+
     const projectsDirectory = path.join(process.cwd(), 'public', 'projects');
     const fileNames = fs.readdirSync(projectsDirectory);
 

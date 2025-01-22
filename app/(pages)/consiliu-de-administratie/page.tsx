@@ -3,8 +3,11 @@ import PageBody from "@/app/components/pagebody/pagebody";
 import Footer from "@/app/components/footer/footer";
 import fs from 'fs';
 import path from 'path';
+import {auth} from "@/auth";
 
 export default async function ConsiliuDeAdministratie() {
+    const session = await auth();
+
     const directoryPath = path.join(process.cwd(), 'public', 'consiliu-de-administratie');
     const files = fs.readdirSync(directoryPath); // Read all files in the directory
 

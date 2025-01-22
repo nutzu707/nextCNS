@@ -136,7 +136,7 @@ const CreateNews = () => {
                                     updateContentItem(index, 'text', e.target.value)
                                 }
                                 placeholder="Text Paragraf "
-                                className="resize-none border-2 rounded-md shadow-2xl w-full h-[200px] p-2 "
+                                className="resize-none border-2 rounded-md focus:outline-0 focus:border-4 focus:border-blue-900 shadow-2xl w-full h-[200px] p-2 "
                             />
                         )}
                         {item.type === 'image' && (

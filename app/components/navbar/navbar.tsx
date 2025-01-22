@@ -3,7 +3,7 @@
 import React from 'react';
 import NavbarButton from "@/app/components/navbarbutton/navbarbutton";
 import {Button} from "@/components/ui/button";
-import { useState } from "react";
+import { useState, useEffect  } from "react";
 
 const Navbar = () => {
     const managementOptions = [
@@ -42,9 +42,7 @@ const Navbar = () => {
         document.body.style.zoom = zoomlvl + "%";
     }
 
-    function contrast() {
 
-    }
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -59,8 +57,12 @@ const Navbar = () => {
         setExpandedSection((prev) => (prev === section ? null : section));
     };
 
+
+
+
+
     return (
-        <div className="p-4 border-b-[#E5E7EB] border-solid border-b-2 flex fixed bg-white w-full items-center  z-10">
+        <div className="p-4 border-b-[#E5E7EB] border-solid border-b-2 flex fixed bg-white w-full items-center  z-10 ">
 
             <div className="z-50">
                 <a href="/">
@@ -81,6 +83,8 @@ const Navbar = () => {
                 <NavbarButton title="EXAMENE" link="/examene" />
                 <NavbarButton title="PROIECTE" link="/proiecte" />
                 <NavbarButton title="CONTACT" link="/contact" />
+
+
                 <div className="ml-auto flex items-center relative group ">
                     <img
                         className="w-8 h-5 shadow-2xl rounded-md mt-1.5 ml-2 mr-2 cursor-pointer"
@@ -94,7 +98,7 @@ const Navbar = () => {
                         <Button onClick={zoomOut} className="h-7 bg-white text-black hover:bg-gray-100 cursor-pointer font-bold text-xl rounded-md whitespace-nowrap">
                             Micsoreaza Text
                         </Button>
-                        <Button onClick={contrast} className="h-7 bg-white text-black hover:bg-gray-100 cursor-pointer font-bold text-xl rounded-md whitespace-nowrap hidden">
+                        <Button className="h-7 bg-white text-black hover:bg-gray-100 cursor-pointer font-bold text-xl rounded-md whitespace-nowrap hidden">
                             Contrast
                         </Button>
                     </div>
@@ -197,6 +201,7 @@ const Navbar = () => {
                         <a href="/examene"><p>Examene</p></a>
                         <a href="/proiecte"><p>Proiecte</p></a>
                         <a href="/contact"><p>Contact</p></a>
+
 
 
 

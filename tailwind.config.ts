@@ -83,6 +83,11 @@ const config = {
           '0%': { opacity: 0 },
           '100%': { opacity: 1 },
         },
+        flipIn: {
+          '0%': { transform: 'rotateY(90deg)', opacity: '0' },
+          '100%': { transform: 'rotateY(0)', opacity: '1' },
+        },
+
 
       },
       animation: {
@@ -92,6 +97,7 @@ const config = {
         growFromCenter: 'growFromCenter 2s ease-out forwards',
         fadeInUp: 'fadeInUp 1s ease-out forwards',
         fadeIn: 'fadeIn 0.5s ease-in-out forwards',
+        flipIn: 'flipIn 0s ease-out forwards',
       },
     },
   },

@@ -5,122 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="commmit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/119010048_3291875047555939_2841995569024167794_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/Liceul_Incepe_Implementarea_Laboratoarelor_Smartlabs_in_Incinta_Acestuia.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/Matioc_Ciprian.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/TITLUL_ANUNTULUI_DE_ASTAZI.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/_as_joai_joai_jdoaijd_oasjid_.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/article.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/asagtaga.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/asd (1).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/asda.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/asdas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/asdsdasd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/care_este_limita_maxima_de_num.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/dasasdasdasfsafasfafafaf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/download (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/dsafsfasf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/flag_of_romania.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/fsafa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/gaolkga.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/impactlegologo (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/model+de+titlu+.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/sdaoigj.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/serbanionut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/archive/tiutluta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447953154_960751679174113_7413673088659010030_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447956462_960751989174082_6433093584384668822_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447956620_960751972507417_2241160675137631038_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447958704_960752012507413_4077526720629226406_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447959765_960751362507478_8649857863844712325_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447961402_960751359174145_6601568294311058643_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447961561_960751549174126_1514138571499584856_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447961641_960752282507386_1074090336635514315_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447963143_960751409174140_6536002315209431290_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/arhiva-foto/447976977_960752512507363_6557892539369536075_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/Cotoi_Alina.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/Deac_Paula.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/IRIMIEA_ANCA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/LAVINIA_ISA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/Lucaciu_Simona.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/Matioc_ciprian.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/NICORA__LIANA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/ONU_AN_MIHAELA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/POP_MARIANA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/SZALANSKI_JUDIT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/TURDEAN_KATALIN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/_ERBAN_IOAN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/consiliu-de-administratie/morar_florin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/cjex-salaj/adsasd (2).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/cjex-salaj/impactlegologo (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-elevi/Statutul Elevului.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-elevi/Teste-Admitere-Clasa-a-V-a.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-elevi/rezultate-cns.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/Oferta Educationala.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/Organigrama.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/Procedură acces persoane străine în colegiu.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/ROF_CNS_2024_2025.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/ROI_CNS_2024_2025.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/Raport Săptămâna Verde 2024.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/Raport Școala Altfel 2023.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/documente-management/Starea CNS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/news/Zilele_Ady_-_Edi_ia_a_XXXV_-a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/websiteUI/Accessibility Icon_final.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/websiteUI/Flag-Hungary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/websiteUI/flag_of_romania.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/websiteUI/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/websiteUI/schita-liceu-blurred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/websiteUI/schita-liceu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/assets/[...dir]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbardashboard/navbardashboard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/anunt/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/anunt/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/arhiva-foto/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/arhiva-foto/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/catedre/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/catedre/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/cjex-salaj/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/cjex-salaj/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/conducere/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/conducere/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/consiliu-de-administratie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/consiliu-de-administratie/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/consiliu-profesoral/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/consiliu-profesoral/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/diriginti/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/diriginti/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/elevi-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/elevi-documente/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/examene/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/examene/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/management-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/management-documente/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(pages)/prezentare/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/prezentare/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/profesori-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/profesori-documente/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(pages)/proiecte/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/proiecte/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/signin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/createnewsarticle/createnewsarticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/createnewsarticle/createnewsarticle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/displayphotos/displayphotos.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/displaydocumentsdash/displaydocumentsdash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocumentsdash/displaydocumentsdash.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/navbar/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/navbarbutton/navbarbutton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/navbarbutton/navbarbutton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/newsarticledisplay/newsarticledisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/newsarticledisplay/newsarticledisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/pagetitle/pagetitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/pagetitle/pagetitle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/3d-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/3d6m-Temp0008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/Colegiul_Naţional__Silvania__Zalău (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/Colegiul_Naţional__Silvania__Zalău (1).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/Screenshot 2024-12-06 232837.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/Screenshot 2024-12-06 232837.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/WhatsApp Image 2024-03-10 at 13.41.09_0601e687.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/WhatsApp Image 2024-03-10 at 13.41.09_0601e687.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/desmos-graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/desmos-graph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/arhiva-foto/mini01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/mini01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/consiliu-de-administratie/asdsadas.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/asdsadas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-elevi/3d6m-Temp0008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-elevi/Drawin2g2-Temp0003.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/Drawin2g2-Temp0003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-elevi/Drawing2.dwg" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/Drawing2.dwg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-elevi/WhatsApp Image 2024-09-02 at 17.05.33_8e29131c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/WhatsApp Image 2024-09-02 at 17.05.33_8e29131c.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-elevi/all3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/all3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-profesori/Drawing1-Layout2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/Drawing1-Layout2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-profesori/Drawing1_recover.dwg" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/Drawing1_recover.dwg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/documente-profesori/all3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/news/Liceul_Incepe_Implementarea_Laboratoarelor_Smartlabs_in_Incinta_Acestuia.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/news/Liceul_Incepe_Implementarea_Laboratoarelor_Smartlabs_in_Incinta_Acestuia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/news/asdads.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/asdads.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/news/sdada.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/sdada.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archive/asfasfa.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/archive/asfasfa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/documents/cjex-salaj/adsasd (2).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/documents/cjex-salaj/impactlegologo (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/documents/cjex-salaj/tiutluta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="false" />
@@ -155,7 +81,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;asd&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ionut/Downloads/nextjs-fullstack-auth-edge-main/public/websiteUI&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ionut/Downloads/nextjs-fullstack-auth-edge-main/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -167,18 +94,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\documente-management" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\websiteUI" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\cjex-salaj" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\documents\websitedocs" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\consiliu-de-administratie" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public" />
+      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\app\api\rebuild" />
       <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\photos" />
       <recent name="C:\Users\Ionut\" />
       <recent name="C:\Users\Ionut\WebstormProjects" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\public\websiteUI" />
-      <recent name="C:\Users\Ionut\Downloads\nextjs-fullstack-auth-edge-main\app\(pages)" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -212,6 +139,16 @@
       <workItem from="1735745568777" duration="6471000" />
       <workItem from="1735754360136" duration="12341000" />
       <workItem from="1735811164725" duration="17315000" />
+      <workItem from="1735837436624" duration="3831000" />
+      <workItem from="1736100353925" duration="280000" />
+      <workItem from="1736361420050" duration="3605000" />
+      <workItem from="1736591412779" duration="1000" />
+      <workItem from="1736785455815" duration="1206000" />
+      <workItem from="1736870881305" duration="3067000" />
+      <workItem from="1737194429229" duration="7035000" />
+      <workItem from="1737299267280" duration="3023000" />
+      <workItem from="1737384039378" duration="36000" />
+      <workItem from="1737391564053" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <option name="closed" value="true" />
@@ -245,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735762724945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1735837498975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735837498975</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1735837514229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735837514229</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

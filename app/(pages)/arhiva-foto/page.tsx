@@ -3,8 +3,8 @@ import path from 'path';
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import PageBody from "@/app/components/pagebody/pagebody";
 import Footer from "@/app/components/footer/footer";
+import {auth} from "@/auth";
 
-// Function to shuffle the array (Fisher-Yates algorithm)
 function shuffleArray(array: string[]): string[] {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));  // Random index from 0 to i
@@ -17,7 +17,6 @@ async function getImages() {
     const imagesFolderPath = path.join(process.cwd(), 'public/arhiva-foto');
     const files = await fs.promises.readdir(imagesFolderPath);
 
-    // Filter image files (you can extend this to support more formats)
     const imageFiles = files.filter((file) =>
         /\.(jpg|jpeg|png|gif|bmp|webp)$/i.test(file)
     );
@@ -26,9 +25,10 @@ async function getImages() {
 }
 
 export default async function ArhivaPage() {
+    const session = await auth();
+
     const images = await getImages();
 
-    // Shuffle the images to show them in a random order
     const shuffledImages = shuffleArray(images);
 
     return (

@@ -3,8 +3,6 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
-import {Button} from "@/components/ui/button";
-import Archivebutton from "@/app/components/archivebutton/archivebutton";
 import React from "react";
 
 interface DocumentsListProps {
@@ -33,7 +31,7 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
                     <li></li>
                 ) : (
                     documentFiles.map((document, index) => {
-                        const documentPath = path.join('documents', path.basename(folderPath), document);
+                        const documentPath = path.join('api/assets/documents', path.basename(folderPath), document);
                         const delay = `${index * 50}ms`;
 
                         return (

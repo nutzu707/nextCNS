@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import PageBody from "@/app/components/pagebody/pagebody";
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import Footer from "@/app/components/footer/footer";
+import {auth} from "@/auth";
 
 interface Profesor {
     nume: string;
@@ -14,7 +15,9 @@ interface ConsiliuProfesoral {
     };
 }
 
+
 const ConsiliuProfesoral = () => {
+
     const [profesori, setProfesori] = useState<Profesor[]>([]);
 
     useEffect(() => {

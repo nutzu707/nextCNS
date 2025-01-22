@@ -3,6 +3,16 @@
 import { useEffect, useState } from 'react';
 import Footer from "@/app/components/footer/footer";
 import PageBody from "@/app/components/pagebody/pagebody";
+import {
+    ArrowBigLeft, ArrowBigLeftDash,
+    ArrowLeft,
+    ArrowLeftCircle,
+    ArrowLeftCircleIcon,
+    ArrowLeftFromLine,
+    ArrowLeftIcon,
+    ArrowLeftRight, ArrowLeftSquare
+} from "lucide-react";
+import {ThickArrowLeftIcon} from "@radix-ui/react-icons";
 
 type ContentItem = {
     type: 'paragraph' | 'image';
@@ -42,7 +52,14 @@ const NewsArticleDisplay = ({ anunt }: { anunt: string }) => {
         <div>
             <PageBody>
                 <div className="lg:w-[725px] w-full self-center">
-                    <h1 className="lg:text-5xl text-3xl mt-32 font-bold">{article.title}</h1>
+                    <div
+                        className="mt-32 flex mb-4 cursor-pointer"
+                        onClick={() => window.location.href = '/#anunturi'}
+                    >
+                        <ArrowLeftSquare />
+                        <a className="ml-2">Inapoi la anunturi</a>
+                    </div>
+                    <h1 className="lg:text-5xl text-3xl  font-bold">{article.title}</h1>
                     <p className="text-sm font-bold text-gray-500 mt-4">{new Date(article.post_date).toLocaleDateString()}</p>
                     <img
 
