@@ -49,7 +49,6 @@ export default async function Dashboard() {
                                 SIGN OUT
                             </Button>
                         </form>
-
                     </div>
                 </div>
 
