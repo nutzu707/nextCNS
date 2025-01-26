@@ -6,7 +6,6 @@ const NewsBox = ({ newsItems }) => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 3;
 
-    // Sort news items by date in descending order (most recent first)
     const sortedNewsItems = [...newsItems].sort((a, b) => new Date(b.date) - new Date(a.date));
 
     const indexOfLastItem = currentPage * itemsPerPage;

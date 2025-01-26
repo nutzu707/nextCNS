@@ -1,6 +1,5 @@
 import PageBody from "@/app/components/pagebody/pagebody";
 import PageTitle from "@/app/components/pagetitle/pagetitle";
-import {Image} from "lucide-react";
 import Footer from "@/app/components/footer/footer";
 
 

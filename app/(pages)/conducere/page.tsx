@@ -1,4 +1,3 @@
-// app/conducere/page.js (or .tsx if you're using TypeScript)
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import PageBody from "@/app/components/pagebody/pagebody";
 import Footer from "@/app/components/footer/footer";
@@ -10,9 +9,8 @@ export default async function Conducere() {
     const session = await auth();
 
     const directoryPath = path.join(process.cwd(), 'public', 'conducere');
-    const files = fs.readdirSync(directoryPath); // Read all files in the directory
+    const files = fs.readdirSync(directoryPath);
 
-    // Filter for JSON files and parse them
     const people = files
         .filter(file => file.endsWith('.json'))
         .map(file => {
@@ -22,7 +20,6 @@ export default async function Conducere() {
             return parsedData.person;
         });
 
-    // Sort the people array alphabetically by name (or by another field if needed)
     people.sort((a, b) => a.name.localeCompare(b.name));
 
     return (

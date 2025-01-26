@@ -17,8 +17,8 @@ import {ThickArrowLeftIcon} from "@radix-ui/react-icons";
 type ContentItem = {
     type: 'paragraph' | 'image';
     text?: string;
-    url?: string; // For remote image links
-    imageData?: string; // For locally uploaded images (Base64)
+    url?: string;
+    imageData?: string;
     caption?: string;
 };
 

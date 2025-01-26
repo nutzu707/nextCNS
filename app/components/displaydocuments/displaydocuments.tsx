@@ -6,21 +6,19 @@ import Link from 'next/link';
 import React from "react";
 
 interface DocumentsListProps {
-    folderPath: string; // Accept the folder path as a prop
+    folderPath: string;
 }
 
 const DocumentList = async ({ folderPath }: DocumentsListProps) => {
     let documentFiles: string[] = [];
 
     try {
-        // Read the documents directory asynchronously
         const files = await fs.promises.readdir(folderPath);
 
-        // Include all files, no filtering based on extension
         documentFiles = files;
     } catch (error) {
         console.error('Error reading documents:', error);
-        documentFiles = []; // Ensure we have a fallback in case of an error
+        documentFiles = [];
     }
 
     const totalItems = documentFiles.length ;
@@ -38,7 +36,7 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
                             <div
                                 key={index}
                                 className="animate-fadeIn opacity-0"
-                                style={{ animationDelay: delay }} // Apply delay as an inline style
+                                style={{ animationDelay: delay }}
                             >
                                 <hr className="solid border-t-2" />
                                 <div className="flex mt-1 lg:mb-1">
@@ -54,7 +52,7 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
 
                 <div
                     className="animate-fadeIn opacity-0"
-                    style={{ animationDelay: `${totalItems * 50}ms` }} // Delay after all documents
+                    style={{ animationDelay: `${totalItems * 50}ms` }}
                 >
                     <hr className="solid border-t-2" />
                 </div>

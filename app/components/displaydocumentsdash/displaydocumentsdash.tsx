@@ -8,21 +8,19 @@ import Archivebutton from "@/app/components/archivebutton/archivebutton";
 import React from "react";
 
 interface DocumentsListProps {
-    folderPath: string; // Accept the folder path as a prop
+    folderPath: string;
 }
 
 const DocumentsListDash = async ({ folderPath }: DocumentsListProps) => {
     let documentFiles: string[] = [];
 
     try {
-        // Read the documents directory asynchronously
         const files = await fs.promises.readdir(folderPath);
 
-        // Include all files, no filtering based on extension
         documentFiles = files;
     } catch (error) {
         console.error('Error reading documents:', error);
-        documentFiles = []; // Ensure we have a fallback in case of an error
+        documentFiles = [];
     }
 
 

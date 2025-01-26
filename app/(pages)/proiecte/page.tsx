@@ -1,4 +1,3 @@
-// app/proiecte/page.tsx
 
 import fs from 'fs';
 import path from 'path';
@@ -8,29 +7,23 @@ import PageBody from "@/app/components/pagebody/pagebody";
 import Footer from "@/app/components/footer/footer";
 import {auth} from "@/auth";
 
-// Utility to calculate luminance and determine text color
 const getContrastingTextColor = (bgColor: string): string => {
-    // Remove the '#' symbol if present
     if (bgColor.startsWith("#")) {
         bgColor = bgColor.substring(1);
     }
 
-    // Convert hex color to RGB
     const r = parseInt(bgColor.substring(0, 2), 16);
     const g = parseInt(bgColor.substring(2, 4), 16);
     const b = parseInt(bgColor.substring(4, 6), 16);
 
-    // Calculate luminance (relative luminance formula)
     const luminance = 0.2126 * (r / 255) ** 2.2 + 0.7152 * (g / 255) ** 2.2 + 0.0722 * (b / 255) ** 2.2;
 
-    // Return black or white depending on luminance
     return luminance > 0.5 ? "text-black" : "text-white";
 };
 
-// Utility to ensure the link has the proper protocol (http/https)
 const ensureProtocol = (url: string): string => {
     if (!/^https?:\/\//i.test(url)) {
-        return `https://${url}`; // If no protocol, add https:// as default
+        return `https://${url}`;
     }
     return url;
 };

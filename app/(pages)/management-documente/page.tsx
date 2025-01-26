@@ -7,7 +7,6 @@ import {auth} from "@/auth";
 
 export default async function ManagementDocumente() {
     const session = await auth();
-
     const currentYear = new Date().getFullYear();
     return (
         <div>

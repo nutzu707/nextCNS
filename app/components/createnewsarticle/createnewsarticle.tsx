@@ -11,7 +11,6 @@ const CreateNews = () => {
         { type: 'paragraph' | 'image'; text?: string; imageData?: string; caption?: string }[]
     >([]);
 
-    // Handle file upload for the article thumbnail
     const handleThumbnailUpload = (file: File) => {
         const reader = new FileReader();
         reader.onload = () => {
@@ -53,7 +52,6 @@ const CreateNews = () => {
 
 
     const generateJson = () => {
-        // Check if the mandatory fields are filled
         if (!title || !postDate || !thumbnail) {
             alert('Title, Date, and Thumbnail are mandatory!');
             return;
@@ -71,7 +69,6 @@ const CreateNews = () => {
             type: 'application/json',
         });
 
-        // Sanitize the title to make it a valid filename
         const sanitizedTitle = title.replace(/[^a-zA-Z0-9_\-]/g, '_');
         const fileName = `${sanitizedTitle || 'untitled'}.json`;
 

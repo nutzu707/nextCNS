@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="commmit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/arhiva-foto/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/arhiva-foto/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/catedre/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/catedre/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/conducere/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/conducere/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/consiliu-de-administratie/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/consiliu-de-administratie/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/consiliu-profesoral/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/consiliu-profesoral/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/management-documente/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/management-documente/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/proiecte/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/proiecte/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions/authActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions/authActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/assets/[...dir]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/assets/[...dir]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/createnewsarticle/createnewsarticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/createnewsarticle/createnewsarticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/createproject/createproject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/createproject/createproject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/displaydocumentsdash/displaydocumentsdash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocumentsdash/displaydocumentsdash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/modifyconducere/modifyconducere.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/modifyconducere/modifyconducere.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/modifyconsiliu/modifyconsiliu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/modifyconsiliu/modifyconsiliu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/newsarticledisplay/newsarticledisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/newsarticledisplay/newsarticledisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/newsbox/newsbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/newsbox/newsbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/refreshbutton/refreshbutton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/refreshbutton/refreshbutton.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +143,7 @@
       <workItem from="1737652011756" duration="155000" />
       <workItem from="1737747844666" duration="47000" />
       <workItem from="1737804709249" duration="596000" />
+      <workItem from="1737889327577" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <option name="closed" value="true" />
@@ -207,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737574576493</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1737889452552</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737889452552</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

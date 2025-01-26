@@ -9,7 +9,7 @@ export default async function ConsiliuDeAdministratie() {
     const session = await auth();
 
     const directoryPath = path.join(process.cwd(), 'public', 'consiliu-de-administratie');
-    const files = fs.readdirSync(directoryPath); // Read all files in the directory
+    const files = fs.readdirSync(directoryPath);
 
     const people = files
         .filter(file => file.endsWith('.json'))

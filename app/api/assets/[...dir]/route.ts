@@ -8,13 +8,11 @@ export async function GET(req, { params }) {
         return new NextResponse(null);
     }
 
-    // Prevent path traversal attacks
     if (dir.indexOf('..') >= 0) {
         return new NextResponse(null);
     }
 
     try {
-        // Read and serve the file
         const data = fs.readFileSync('public/' + dir, { flag: 'r' });
 
         return new NextResponse(data);

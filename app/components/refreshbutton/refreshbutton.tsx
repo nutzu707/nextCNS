@@ -1,4 +1,4 @@
-'use client';  // This component will only run on the client side
+'use client';
 
 import { Button } from "@/components/ui/button";
 
