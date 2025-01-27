@@ -58,7 +58,7 @@ export default async function Proiecte() {
                                 <a
                                     key={index}
                                     href={link}
-                                    target="_blank"
+                                    target="_self"
                                     rel="noopener noreferrer"
                                     className={`w-full h-[300px] lg:h-[100px] lg:flex  cursor-pointer ${textColor}`}
 

@@ -32,7 +32,6 @@ export default async function Dashboard() {
 
         const data = await file.arrayBuffer();
         await fs.writeFile(`${process.cwd()}/public/${collection}/${file.name}`, Buffer.from(data));
-
     }
 
         return (

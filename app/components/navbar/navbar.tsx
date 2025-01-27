@@ -102,9 +102,8 @@ const Navbar = () => {
                             Contrast
                         </Button>
                     </div>
-
-
                 </div>
+
                 <div className="flex items-center relative group ">
                     <img
                         className="w-8 h-5 shadow-2xl rounded-md mt-1.5 ml-2 mr-2 cursor-pointer border"
