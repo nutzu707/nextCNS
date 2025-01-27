@@ -29,7 +29,7 @@ const DocumentList = async ({ folderPath }: DocumentsListProps) => {
                     <li></li>
                 ) : (
                     documentFiles.map((document, index) => {
-                        const documentPath = path.join('api/assets/documents', path.basename(folderPath), document);
+                        const documentPath = path.join('documents', path.basename(folderPath), document);
                         const delay = `${index * 50}ms`;
 
                         return (

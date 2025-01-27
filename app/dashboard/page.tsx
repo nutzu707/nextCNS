@@ -13,7 +13,6 @@ import React from "react";
 import RefreshButton from "@/app/components/refreshbutton/refreshbutton";
 import CreateNews from "@/app/components/createnewsarticle/createnewsarticle";
 import Navbardashboard from "@/app/components/navbardashboard/navbardashboard";
-import Restartbutton from "@/app/components/restartbutton/restartbutton";
 
 export default async function Dashboard() {
 
