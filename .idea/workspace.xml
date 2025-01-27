@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4756da9-99a1-4adc-8f2a-2666761a37b5" name="Changes" comment="commmit">
-      <change afterPath="$PROJECT_DIR$/app/(pages)/test/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/cjex-salaj/ROI 2024.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/documents/cjex-salaj/rofuip 2024.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/displaydocuments/displaydocuments.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(pages)/arhiva-foto/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(pages)/arhiva-foto/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +129,7 @@
       <workItem from="1737893634691" duration="4584000" />
       <workItem from="1737908544548" duration="932000" />
       <workItem from="1737909830926" duration="117000" />
-      <workItem from="1737994969946" duration="2238000" />
+      <workItem from="1737994969946" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="commmit">
       <option name="closed" value="true" />
@@ -234,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737890197481</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commmit">
+      <option name="closed" value="true" />
+      <created>1737997260869</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737997260869</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

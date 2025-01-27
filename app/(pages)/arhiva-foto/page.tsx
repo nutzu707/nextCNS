@@ -52,7 +52,7 @@ export default async function ArhivaPage() {
                         </div>
                     ))}
                 </div>
-                <Footer />
+                <Footer/>
             </PageBody>
         </div>
     );
